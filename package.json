@@ -1,0 +1,24 @@
+{
+  "name": "design-patterns-book",
+  "version": "0.1.0",
+  "description": "Notes on Design Patterns",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helloanoop/design-patterns-book.git"
+  },
+  "keywords": [
+    "design patterns"
+  ],
+  "author": "Anoop M D",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vue": "3.2.44",
+    "vitepress": "1.0.0-alpha.28"
+  }
+}
